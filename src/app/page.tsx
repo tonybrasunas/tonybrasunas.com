@@ -87,7 +87,7 @@ export default function Home() {
         <p className="mx-auto max-w-[440px] font-serif text-[21px] italic leading-[1.55] text-[#3c3835]">
           The work I enjoy most involves
           <br />
-          solving difficult problems, mentoring teams, and building
+          solving hard problems, mentoring teams, and building
           applications that are both beautiful and reliable.
         </p>
       </section>
