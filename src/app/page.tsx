@@ -18,7 +18,7 @@ export default function Home() {
         </div>
         <div className="mt-7 flex justify-end">
           <p className="max-w-[300px] text-right text-[15px] leading-relaxed text-ink-secondary">
-            I engineer technically complex products into fast, intuitive
+            I engineer technically complex products into beautiful, intuitive
             experiences through thoughtful architecture, technical
             leadership, and hands-on development.
           </p>
