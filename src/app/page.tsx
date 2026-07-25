@@ -98,8 +98,7 @@ export default function Home() {
         </p>
         <p className="max-w-[520px] text-[16px] leading-relaxed text-ink-secondary">
           I use AI throughout architecture, implementation, testing,
-          debugging, and documentation&mdash;not as a shortcut, but as a force multiplier for delivering higher-quality
-          {/* force multiplier for delivering higher-quality software.   */}
+          debugging, and documentation&mdash;not as a shortcut, but as a force multiplier for delivering higher-quality {/* software.   */}
         </p>
       </section>
     </div>
