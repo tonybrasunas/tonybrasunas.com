@@ -50,7 +50,7 @@ export default function ContactPage() {
               href={link.href}
               target={link.external ? "_blank" : undefined}
               rel={link.external ? "noopener noreferrer" : undefined}
-              download={link.label === "Resume" ? true : undefined}
+              download={link.label === "Resume" ? "Tony_Brasunas_RESUME.pdf" : undefined}
               className={`group -mx-3 flex items-center justify-between gap-4 px-3 py-5 transition-colors duration-200 hover:bg-row-hover ${
                 index !== 0 ? "border-t border-line" : ""
               }`}

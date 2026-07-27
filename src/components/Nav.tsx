@@ -24,20 +24,22 @@ export default function Nav() {
           Tony Brasunas
         </Link>
         <nav className="flex items-center gap-5 text-[13px]">
-          {links.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={`transition-colors duration-200 hover:text-ink ${
-                isActive(pathname, link.href) ? "text-ink" : "text-ink-secondary"
-              }`}
-            >
-              {link.label}
-            </Link>
-          ))}
+          <div className="hidden items-center gap-5 sm:flex">
+            {links.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className={`transition-colors duration-200 hover:text-ink ${
+                  isActive(pathname, link.href) ? "text-ink" : "text-ink-secondary"
+                }`}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
           <a
             href="/resume.pdf"
-            download
+            download="Tony_Brasunas_RESUME.pdf"
             className="inline-flex items-center gap-1.5 rounded-md bg-ink px-3.5 py-1.5 font-medium text-page transition-colors duration-200 hover:bg-cta-hover"
           >
             Resume
