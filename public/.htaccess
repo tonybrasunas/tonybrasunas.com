@@ -1,3 +1,4 @@
+DirectorySlash Off
 RewriteEngine On
 
 RewriteRule ^resume/?$ /resume.pdf [R=301,L]
@@ -5,8 +6,7 @@ RewriteRule ^resume\.cfm$ /resume.pdf [R=301,L]
 RewriteRule ^resume2025\.cfm$ /resume.pdf [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html [L]
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
 
 ErrorDocument 404 /404.html
