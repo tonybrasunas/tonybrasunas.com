@@ -8,10 +8,10 @@ export default function Home() {
       <section className="border-b border-line pt-1 pb-0">
         <div className="max-w-[540px]">
           <p className="mb-5 text-xs tracking-[0.14em] text-ink-quaternary">
-            PRINCIPAL FRONTEND ENGINEER
+            PRINCIPAL FRONTEND ENGINEER • TECHNICAL LEADER
           </p>
           <h1 className="text-[40px] font-medium leading-[1.18] tracking-[-0.02em] text-ink">
-            Complex systems need
+            Complex systems deserve
             <br />
             simple user experiences.
           </h1>
@@ -97,9 +97,7 @@ export default function Home() {
           AI-NATIVE ENGINEERING
         </p>
         <p className="max-w-[520px] text-[16px] leading-relaxed text-ink-secondary">
-          I use AI throughout architecture, implementation, testing,
-          debugging, and documentation&mdash;not as a shortcut, but as a
-          force multiplier for delivering higher-quality software.
+          I treat AI as another engineering tool——useful for accelerating implementation, improving code quality, generating tests, exploring design alternatives, and increasing developer leverage without replacing engineering judgment.
         </p>
       </section>
     </div>

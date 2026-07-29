@@ -48,12 +48,12 @@ export const stories: Story[] = [
     headline: "Building a Frontend Platform for Shell Recharge",
     role: "Lead Frontend Engineer",
     period: "2020–2026",
-    location: "Los Angeles, California",
+    location: "Oakland, California",
     summary:
       "Scaling frontend architecture across a growing ecosystem of EV products.",
     focusLabel: "Focus",
     focusValue:
-      "Frontend Architecture • Angular • React • Technical Leadership • Product Development",
+      "Frontend Architecture • Angular • Module Federation • Technical Leadership • Product Development",
     sections: [
       {
         heading: "The Challenge",
@@ -128,11 +128,11 @@ export const stories: Story[] = [
     headline: "Simplifying Residential Solar Through Better Software",
     role: "Senior Software Engineer",
     period: "2017–2019",
-    location: "Oakland, California",
+    location: "San Francisco, California",
     summary:
       "Transforming complex residential solar sales workflows with beautiful, reliable, intuitive software.",
     focusLabel: "Technology",
-    focusValue: "AngularJS, JavaScript, HTML/CSS, REST APIs",
+    focusValue: "AngularJS, JavaScript, HTML/CSS, REST APIs, Django, Python",
     sections: [
       {
         heading: "The Challenge",

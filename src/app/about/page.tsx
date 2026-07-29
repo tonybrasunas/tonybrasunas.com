@@ -24,7 +24,7 @@ export default function AboutPage() {
           ABOUT
         </p>
         <h1 className="max-w-[560px] text-[34px] font-medium leading-[1.2] tracking-[-0.02em] text-ink">
-          Building software people actually enjoy using.
+          Building software people actually like to use.
         </h1>
         <p className="mt-5 max-w-[560px] text-[17px] leading-relaxed text-ink-secondary">
           I&rsquo;ve spent more than two decades helping teams transform
@@ -66,17 +66,7 @@ export default function AboutPage() {
         </p>
         <div className="space-y-6">
           <div>
-            <div className="flex flex-wrap items-baseline justify-between gap-2">
-              <p className="text-[15px] font-medium text-ink">
-                Amherst College
-              </p>
-              <p className="text-[13px] text-ink-quaternary">BA, 1996</p>
-            </div>
-            <p className="mt-1 max-w-[560px] text-[15px] leading-relaxed text-ink-secondary">
-              Computer Science, with additional study in Chinese, music,
-              political science, and creative writing.
-            </p>
-          </div>
+
           <div>
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <p className="text-[15px] font-medium text-ink">
@@ -88,6 +78,17 @@ export default function AboutPage() {
               Fellowship teaching English in Guangzhou, China &mdash; the
               start of a lasting relationship with Mandarin and Chinese
               culture.
+            </p>
+          </div>
+                      <div className="flex flex-wrap items-baseline justify-between gap-2">
+              <p className="text-[15px] font-medium text-ink">
+                Amherst College
+              </p>
+              <p className="text-[13px] text-ink-quaternary">BA, 1996</p>
+            </div>
+            <p className="mt-1 max-w-[560px] text-[15px] leading-relaxed text-ink-secondary">
+              Computer Science, with additional study in Chinese, music,
+              political science, and creative writing.
             </p>
           </div>
         </div>
